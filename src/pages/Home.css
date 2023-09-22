@@ -1,0 +1,157 @@
+
+.home-container {
+    position: relative;
+    z-index: 0;
+    margin-top: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: calc(100vh - 60px);
+  }
+  
+  .cards {
+    width: 400px;
+    height: 530px;
+    border: 1px solid black;
+    position: relative;
+    left: 35%;
+    right: -65%;
+    margin-top: 10px;
+    margin-bottom: 60px;
+  }
+  .post-caption{
+    color: black;
+    padding-left: 10px;
+    font-weight: 600;
+  }
+  
+  .profile-1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+  }
+  
+  .logo-profile {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-name {
+    padding-top: 15px;
+    padding-right: 50px;
+  }
+  
+  .post-1 img {
+    width: 399px;
+    height: 250px;
+  }
+  
+  .like-comment button {
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgb(237, 119, 119);
+    color: black;
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  #likes {
+    padding-left: 10px;
+  }
+  
+  .userprofile {
+    color: black !important;
+  }
+  .loading-indicator {
+    position: absolute;
+    width: 100px;
+    left: 50%;
+    right: -50%;
+
+  }
+  .comment{
+    width: 380px;
+    border: 2px solid gainsboro;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+  }
+  .comment input{
+    width: 320px;
+    outline: none;
+    border: none;
+  }
+  .comment button{
+    margin-bottom: 5px;
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+  .View-1{
+    color: blue;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .model_head{
+    width: 400px;
+  }
+  .model_post{
+    width: 300px;
+  }
+  .btn-model{
+    /* margin-bottom: 5px; */
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+  .close-button{
+    /* width: 70px;
+    height: 30px; */
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+  }
+  @media (max-width: 767px) {
+    .cards {
+      width: 380px;
+      height: 530px;
+      border: 1px solid black;
+      position: relative;
+      left: 3%;
+      margin-top: 10px;
+      margin-bottom: 60px;
+      z-index: 0;
+    }
+  
+    .post-1 img {
+      width: 379px;
+      height: 250px;
+      z-index: 0;
+    }
+    .comment{
+      width: 360px;
+      border: 2px solid gainsboro;
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+    }
+    .comment input{
+      width: 310px;
+      outline: none;
+      border: none;
+    }
+  }
+  
