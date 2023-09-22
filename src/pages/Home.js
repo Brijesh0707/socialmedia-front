@@ -77,18 +77,18 @@ const Home = () => {
     setIsButtonDisabled(false);
   };
 
-  // State for handling modal
+ 
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [selectedPost, setSelectedPost] = useState(null);
   const [commentText, setCommentText] = useState('');
 
-  // Function to open the modal and select the post
+
   const openModal = (post) => {
     setModalIsOpen(true);
     setSelectedPost(post);
   };
 
-  // Function to close the modal
+
   const closeModal = () => {
     setModalIsOpen(false);
     setSelectedPost(null);
@@ -114,7 +114,7 @@ const Home = () => {
 
       const result = await response.json();
 
-      // Update the comments for the selected post
+     
       const updatedData = data.map((post) => {
         if (post._id === postid) {
           post.comments = result.comments;
